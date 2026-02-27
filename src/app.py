@@ -92,6 +92,14 @@ activities = {
         "sort_key": "2026-03-06T16:00:00",
         "max_participants": 12,
         "participants": ["charlotte@mergington.edu", "henry@mergington.edu"]
+    },
+    "GitHub Skills": {
+        "description": "Learn practical coding and collaboration skills using GitHub, part of the GitHub Certifications program",
+        "category": "Academic",
+        "schedule": "Wednesdays, 3:30 PM - 4:30 PM",
+        "sort_key": "2026-03-04T15:30:00",
+        "max_participants": 25,
+        "participants": []
     }
 }
 
