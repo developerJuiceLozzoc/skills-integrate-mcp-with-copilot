@@ -57,6 +57,34 @@ section h3 {
   color: #1a237e;
 }
 
+.activities-toolbar {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.toolbar-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.toolbar-group input,
+.toolbar-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .activities-toolbar {
+    grid-template-columns: 1fr;
+  }
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
