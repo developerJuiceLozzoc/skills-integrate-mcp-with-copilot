@@ -31,7 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const matchesSearch =
           searchTerm.length === 0 || searchHaystack.includes(searchTerm);
 
-        return matchesCategory && matchesSearch;
+        if (searchTerm.length === 0) {
+          return matchesCategory 
+        } else {
+          return matchesSearch
+        }
       })
       .sort((first, second) => {
         const [firstName, firstDetails] = first;
