@@ -8,19 +8,19 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #1f2a1f;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 header {
   text-align: center;
   padding: 20px 0;
   margin-bottom: 30px;
-  background-color: #1a237e;
-  color: white;
+  background-color: #b7ff3c;
+  color: #1f2a1f;
   border-radius: 5px;
 }
 
@@ -54,7 +54,7 @@ section h3 {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
-  color: #1a237e;
+  color: #3f7d00;
 }
 
 .activities-toolbar {
@@ -95,7 +95,7 @@ section h3 {
 
 .activity-card h4 {
   margin-bottom: 10px;
-  color: #0066cc;
+  color: #3f7d00;
 }
 
 .activity-card p {
@@ -111,7 +111,7 @@ section h3 {
 
 .participants-section h5 {
   margin-bottom: 8px;
-  color: #1a237e;
+  color: #3f7d00;
   font-size: 16px;
 }
 
@@ -178,8 +178,8 @@ section h3 {
 }
 
 button {
-  background-color: #1a237e;
-  color: white;
+  background-color: #7ddc00;
+  color: #1f2a1f;
   border: none;
   padding: 10px 15px;
   font-size: 16px;
@@ -189,7 +189,7 @@ button {
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #6bc300;
 }
 
 .message {
@@ -211,9 +211,9 @@ button:hover {
 }
 
 .info {
-  background-color: #d1ecf1;
-  color: #0c5460;
-  border: 1px solid #bee5eb;
+  background-color: #f3ffe0;
+  color: #2c5a00;
+  border: 1px solid #b7ff3c;
 }
 
 .hidden {
